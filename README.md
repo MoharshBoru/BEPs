@@ -26,7 +26,6 @@ Here is the list of subjects of BEPs:
 | [BEP-87](./BEPs/BEP87.md)    | Token Symbol Minimum Length Change                        | Standards | Enabled   |
 | [BEP-89](./BEPs/BEP89.md)    | Visual Fork of BNB Smart Chain                            | Standards | Enabled   |
 | [BEP-91](./BEPs/BEP91.md)    | Increase Block Gas Ceiling for BNB Smart Chain            | Standards | Enabled   |
-| [BEP-93](./BEPs/BEP93.md)    | Diff Sync Protocol on BSC                                 | Standards | Withdrawn |
 | [BEP-95](./BEPs/BEP95.md)    | Introduce Real-Time Burning Mechanism                     | Standards | Enabled   |
 | [BEP-126](./BEPs/BEP126.md)  | Introduce Fast Finality Mechanism                         | Standards | Enabled   |
 | [BEP-127](./BEPs/BEP127.md)  | Temporary Maintenance Mode for Validators                 | Standards | Enabled   |
@@ -56,9 +55,9 @@ Here is the list of subjects of BEPs:
 | [BEP-293](./BEPs/BEP-293.md) | Greenfield Link to opBNB                                  | Standards | Draft     |
 | [BEP-294](./BEPs/BEP294.md)  | BSC Native Staking after BC Fusion                        | Standards | Enabled |
 | [BEP-297](./BEPs/BEP297.md)  | BSC Native Governance Module                              | Standards | Enabled |
-| [BEP-299](./BEPs/BEP-299.md) | Token Migration after BC Fusion                           | Standards | Candidate |
+| [BEP-299](./BEPs/BEP-299.md) | Token Migration after BC Fusion                           | Standards | Enabled |
 | [BEP-311](./BEPs/BEP-311.md) | Implement EIP-3651 Warm COINBASE                          | Standards | Enabled |
-| [BEP-312](./BEPs/BEP-312.md) | Announce EIP-6049 Deprecate SELFDESTRUCT                  | Standards | Review    |
+| [BEP-312](./BEPs/BEP-312.md) | Announce EIP-6049 Deprecate SELFDESTRUCT                  | Standards | Enabled    |
 | [BEP-319](./BEPs/BEP-319.md) | Optimize the incentive mechanism of the Fast Finality feature | Standards | Enabled |
 | [BEP-322](./BEPs/BEP322.md)  | Builder API Specification for BNB Smart Chain              | Standards | Enabled  |
 | [BEP-323](./BEPs/BEP323.md)  | Bundle Format for Greenfield                              | Standards | Enabled   |
@@ -66,7 +65,7 @@ Here is the list of subjects of BEPs:
 | [BEP-334](./BEPs/BEP-334.md) | Greenfield CrossChain Permission Module                   | Standards | Enabled     |
 | [BEP-335](./BEPs/BEP-335.md) | Greenfield Simplify Storage Provider Exit                   | Standards | Enabled   |
 | [BEP-336](./BEPs/BEP-336.md) | Implement EIP-4844: Shard Blob Transactions               | Standards | Enabled     |
-| [BEP-341](./BEPs/BEP-341.md) | Validators can produce consecutive blocks                  | Standards | Candidate  |
+| [BEP-341](./BEPs/BEP-341.md) | Validators can produce consecutive blocks                  | Standards | Enabled  |
 | [BEP-342](./BEPs/BEP-342.md) | Implement EIP-5656: MCOPY                                 | Standards | Enabled |
 | [BEP-343](./BEPs/BEP-343.md) | Implement EIP-1153: Transient storage opcodes             | Standards | Enabled |
 | [BEP-344](./BEPs/BEP-344.md) | Implement EIP-6780: SELFDESTRUCT only in same transaction | Standards | Enabled |
@@ -75,12 +74,52 @@ Here is the list of subjects of BEPs:
 | [BEP-362](./BEPs/BEP-362.md) | Greenfield Storage Fee Paymaster                          | Standards | Enabled |
 | [BEP-364](./BEPs/BEP-364.md) | Primary Storage Provider acts as the upload agent for object creation and update on Greenfield | Standards | Enabled |
 | [BEP-366](./BEPs/BEP-366.md) | PGreenfield Atomic Object Update                           | Standards | Candidate |
-| [BEP-402](./BEPs/BEP-402.md) | Complete Missing Fields in Block Header to Generate Signature          | Standards | Candidate |
-| [BEP-404](./BEPs/BEP-404.md) | Clear Miner History when Switching Validator Set          | Standards | Candidate |
-| [BEP-410](./BEPs/BEP-410.md) | Add Agent for Validators          | Standards | Draft     |
-| [BEP-414](./BEPs/BEP-414.md) | EOA based Paymaster API Spec       | Standards | Draft     |
+| [BEP-402](./BEPs/BEP-402.md) | Complete Missing Fields in Block Header to Generate Signature          | Standards | Enabled |
+| [BEP-404](./BEPs/BEP-404.md) | Clear Miner History when Switching Validator Set          | Standards | Enabled |
+| [BEP-410](./BEPs/BEP-410.md) | Add Agent for Validators          | Standards | Enabled     |
+| [BEP-414](./BEPs/BEP-414.md) | EOA based Paymaster API Spec       | Standards | Enabled     |
+| [BEP-439](./BEPs/BEP-439.md) | Implement EIP-2537: Precompile for BLS12-381 curve operations | Standards | Enabled     |
+| [BEP-440](./BEPs/BEP-440.md) | Implement EIP-2935: Serve historical block hashes from state | Standards | Enabled |
+| [BEP-441](./BEPs/BEP-441.md) | Implement EIP-7702: Set EOA account code | Standards | Enabled |
+| [BEP-466](./BEPs/BEP-466.md) | Make the block header format compatible with EIP-7685 | Standards | Enabled |
+| [BEP-496](./BEPs/BEP-496.md) | Implement EIP-7623: Increase calldata cost | Standards | Enabled |
+| [BEP-520](./BEPs/BEP-520.md) | Short Block Interval Phase One: 1.5 seconds | Standards | Enabled |
+| [BEP-524](./BEPs/BEP-524.md) | Short Block Interval Phase Two: 0.75 seconds | Standards | Enabled |
+| [BEP-563](./BEPs/BEP-563.md) | Enhanced Validator Network  | Standards | Enabled |
+| [BEP-564](./BEPs/BEP-564.md) | bsc/2 - New Block Fetching Messages | Standards | Enabled |
+| [BEP-590](./BEPs/BEP-590.md) | Extended Voting Rules for Fast Finality Stability | Standards | Enabled |
+| [BEP-592](./BEPs/BEP-592.md) | Non-Consensus Based Block-Level Access List | Standards | Candidate |
+| [BEP-593](./BEPs/BEP-593.md) | Incremental Snapshot | Standards | Enabled |
+| [BEP-594](./BEPs/BEP-594.md) | L2 Fast Withdrawal by TEE | Standards | Draft |
+| [BEP-610](./BEPs/BEP-610.md) | Implement EVM Super Instruction | Standards | Candidate |
+| [BEP-619](./BEPs/BEP-619.md) | Short Block Interval Phase Three: 0.45 Seconds | Standards | Enabled |
+| [BEP-640](./BEPs/BEP-640.md) | Optional Transaction Gas Limit Cap | Standards | Candidate |
+| [BEP-648](./BEPs/BEP-648.md) | Enhanced Fast Finality via In-Memory Voting Pool | Standards | Candidate |
+| [BEP-651](./BEPs/BEP-651.md) | Implement EIP-7823 Set upper bounds for MODEXP | Standards | Candidate |
+| [BEP-652](./BEPs/BEP-652.md) | Implement EIP-7825 Transaction Gas Limit Cap | Standards | Candidate |
+| [BEP-653](./BEPs/BEP-653.md) | Implement EIP-7883 ModExp Gas Cost Increase | Standards | Candidate |
+| [BEP-654](./BEPs/BEP-654.md) | Implement EIP-7939 Count Leading Zeros (CLZ) Opcode | Standards | Candidate |
+| [BEP-655](./BEPs/BEP-655.md) | Implement EIP-7934 RLP Execution Block Size Limit | Standards | Candidate |
+| [BEP-656](./BEPs/BEP-656.md) | Implement EIP-7910: eth_config JSON-RPC Method | Standards | Candidate |
+| [BEP-657](./BEPs/BEP-657.md) | Limit Blob Transaction Inclusion by Block Number | Standards | Candidate |
+| [BEP-658](./BEPs/BEP-658.md) | Hardfork Meta-Osaka/Mendel | Information | Candidate |
+| [BEP-659](./BEPs/BEP-659.md) | Implement EIP-7951 Precompile for secp256r1 Curve Support | Standards | Candidate |
+| [BEP-667](./BEPs/BEP-667.md) | Introduce Vote Interval to Relax Fast Finality Consensus Constraint | Standards | Draft |
+| [BEP-670](./BEPs/BEP-670.md) | Short Block Interval Phase Four: 250ms | Standards | Draft |
+| [BEP-673](./BEPs/BEP-673.md) | Hardfork Meta-Pasteur | Information | Draft |
+| [BEP-675](./BEPs/BEP-675.md) | Builder-Proposed Block with Validator Blind Signing | Standards | Draft |
+
+# BAPs
+BAP (BNB Application Proposal) defines standards for application layer interactions on BNB Chain. Unlike BEPs which govern core protocol changes, BAPs focus on establishing conventions and interfaces for how applications communicate and interact with each other within the BNB Chain ecosystem.
+
+The process for submitting and managing BAPs follows the standardized workflow outlined in [BEP-1: Purpose and Guidelines](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP1.md). BAP numbers are assigned based on the PR number, ensuring no overlap with BEP numbers.
+
+Here is the list of subjects of BAPs:
 
 
+| Number                       | Title                                                     | Type      | Status    |
+|------------------------------| --------------------------------------------------------- | --------- |-----------|
+| [BAP-578](./BAPs/BAP-578.md) | BAP-578: Non-Fungible Agent (NFA) Token Standard | Application | Draft |
 
 # BNB Chain Upgrades
 [BNB Chain Upgrades(Mainnet): History & Forecast](https://forum.bnbchain.org/t/bnb-chain-upgrades-mainnet/936)
@@ -88,5 +127,5 @@ Here is the list of subjects of BEPs:
 [BNB Chain Upgrades(Testnet): History & Forecast](https://forum.bnbchain.org/t/bnb-chain-upgrades-testnet/934)
 
 
-# How To Contribute A BEP
-If you have an idea and want to make it a BEP, you may refer [BEP-1](BEP1.md)
+# How To Contribute
+If you have an idea and want to make it a BEP/BAP, you may refer [BEP-1](./BEPs/BEP1.md)
